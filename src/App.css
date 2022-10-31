@@ -1,0 +1,99 @@
+.table-section{
+      position: relative;
+      min-height: 100vh;
+      max-width: 100%;
+      margin: 3rem 10rem 2rem 10rem;
+}
+
+h1{
+      text-align: center;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      color: #3f6697;
+}
+
+.filter-modal{
+      position: absolute;
+      top: 20%;
+      right: -3%;
+      background-color: white;
+      color: rgba(0, 0, 0, 0.742);
+      font-size: 1.4rem;
+      height: 8rem;
+      width: 11rem;
+      padding: 1rem 0;
+      border-radius: 3px;
+      box-shadow: 2px 2px 12px 0 rgba(0, 0, 0, 0.244);
+}
+
+p{
+      font-weight: 600;
+      margin-bottom: 5px;
+      padding: 0 2rem;
+}
+
+ul{
+      list-style: none;
+      padding-top: 1rem;
+      cursor: pointer;
+}
+
+li{
+      border-bottom: 1px solid rgba(211, 211, 211, 0.344);
+      border-top: 1px solid rgba(211, 211, 211, 0.344);
+      color: #3f6697;
+      font-weight: 500;
+      padding: 0.3rem 2rem 1.2rem 2rem;
+
+}
+
+li:hover{
+      background-color: #3f67972e;
+}
+
+.input{
+      margin-right: 15rem;
+      outline: 0;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      border: 1px solid rgba(128, 128, 128, 0.376);
+}
+
+.input:focus{
+      border: 1px solid #5596e6c2;
+}
+
+@media screen and (max-width: 900px) {
+     .table-section{
+      margin: 3rem 3rem 2rem 3rem;
+}
+
+h1{
+      font-size: 3rem;
+}
+
+.filter-modal{
+      top: 11%;
+      right: 0;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+     .table-section{
+      margin: 3rem 1.5rem 2rem 1.5rem;
+}
+
+h1{
+      font-size: 2.5rem;
+} 
+
+.input{
+      margin-right: 1rem;
+ }
+
+ .filter-modal{
+      top: 12%;
+      right: 0;
+}
+}
